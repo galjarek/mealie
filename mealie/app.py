@@ -14,6 +14,7 @@ from mealie.routes.users import users
 
 logger = root_logger.get_logger()
 
+
 app = FastAPI(
     title="Mealie",
     description="A place for all your recipes",

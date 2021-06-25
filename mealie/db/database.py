@@ -119,14 +119,12 @@ class _SignUps(BaseDocument):
         self.orm_mode = True
         self.schema = SignUpOut
 
-
 class _CustomPages(BaseDocument):
     def __init__(self) -> None:
         self.primary_key = "id"
         self.sql_model = CustomPage
         self.orm_mode = True
         self.schema = CustomPageOut
-
 
 class Database:
     def __init__(self) -> None:
